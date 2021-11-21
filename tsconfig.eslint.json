@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "@types",
+    "*.ts",
+    "app/**/*.ts",
+    "cli/**/*.ts",
+    "config/*.ts",
+    "database/**/*.ts",
+    "libs/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    ".eslintrc.js",
+    "resources"
+  ]
+}
